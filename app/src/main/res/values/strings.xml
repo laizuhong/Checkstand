@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Checkstand</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="main_menu">
+        <item>收银</item>
+        <item>订单</item>
+        <item>商品</item>
+        <item>同步</item>
+        <item>退货</item>
+        <item>门店</item>
+        <item>会员</item>
+    </string-array>
+</resources>

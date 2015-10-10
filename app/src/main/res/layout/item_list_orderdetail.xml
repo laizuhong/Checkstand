@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text=""
+            android:layout_height="fill_parent" />
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="流水号"
+            android:layout_height="fill_parent" />
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="应收金额"
+            android:layout_height="fill_parent" />
+        <TextView
+            android:id="@+id/realityamount"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="实收金额"
+            android:layout_height="fill_parent" />
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text="下单时间"
+            android:layout_height="fill_parent" />
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="操作人"
+            android:layout_height="fill_parent" />
+        <TextView
+            android:id="@+id/cloundnumber"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text="云订单号"
+            android:layout_height="fill_parent" />
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="状态"
+            android:layout_height="fill_parent" />
+        <TextView
+            android:id="@+id/service"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="服务"
+            android:layout_height="fill_parent" />
+        <TextView
+            android:id="@+id/servicestate"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="状态"
+            android:layout_height="fill_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
